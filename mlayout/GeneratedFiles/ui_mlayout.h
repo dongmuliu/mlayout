@@ -43,7 +43,7 @@ public:
     {
         if (mlayoutClass->objectName().isEmpty())
             mlayoutClass->setObjectName(QStringLiteral("mlayoutClass"));
-        mlayoutClass->resize(279, 102);
+        mlayoutClass->resize(496, 287);
         verticalLayout_2 = new QVBoxLayout(mlayoutClass);
         verticalLayout_2->setSpacing(6);
         verticalLayout_2->setContentsMargins(11, 11, 11, 11);
@@ -102,6 +102,7 @@ public:
 
 
         retranslateUi(mlayoutClass);
+        QObject::connect(submitButton, SIGNAL(clicked()), mlayoutClass, SLOT(on_submitButton_clicked()));
 
         QMetaObject::connectSlotsByName(mlayoutClass);
     } // setupUi
