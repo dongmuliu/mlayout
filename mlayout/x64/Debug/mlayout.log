@@ -1,6 +1,12 @@
-﻿生成启动时间为 2019/2/23/星期六 14:09:43。
-     1>项目“E:\Git Library\mlayout\mlayout\mlayout.vcxproj”在节点 2 上(Build 个目标)。
-     1>ClCompile:
+﻿生成启动时间为 2019/2/23/星期六 14:55:35。
+     1>项目“E:\Git Library\mlayout\mlayout\mlayout.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing mlayout.h...
+         Uic'ing mlayout.ui...
+         Rcc'ing mlayout.qrc...
+     1>RCC : warning : No resources in 'E:\Git Library\mlayout\mlayout\mlayout.qrc'.
+         
+       ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IF:\QT5.7.0\5.7\msvc2013_64\include /I.\GeneratedFiles\Debug /IF:\QT5.7.0\5.7\msvc2013_64\include\QtCore /IF:\QT5.7.0\5.7\msvc2013_64\include\QtGui /IF:\QT5.7.0\5.7\msvc2013_64\include\QtANGLE /IF:\QT5.7.0\5.7\msvc2013_64\include\QtWebChannel /IF:\QT5.7.0\5.7\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /MP /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WEBCHANNEL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Debug\moc_mlayout.cpp main.cpp mlayout.cpp
          moc_mlayout.cpp
          main.cpp
@@ -13,8 +19,8 @@
          x64\Debug\main.obj
          x64\Debug\mlayout.obj
          mlayout.vcxproj -> E:\Git Library\mlayout\x64\Debug\mlayout.exe
-     1>已完成生成项目“E:\Git Library\mlayout\mlayout\mlayout.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“E:\Git Library\mlayout\mlayout\mlayout.vcxproj”(Rebuild 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:10.81
+已用时间 00:00:03.51

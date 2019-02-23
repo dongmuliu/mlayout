@@ -1,5 +1,5 @@
 #include "mlayout.h"
-
+#include<qprocess.h>
 mlayout::mlayout(QWidget *parent)
 	: QWidget(parent)
 {

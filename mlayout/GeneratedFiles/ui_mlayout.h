@@ -21,7 +21,7 @@
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
-#include<Qprocess>
+
 QT_BEGIN_NAMESPACE
 
 class Ui_mlayoutClass
